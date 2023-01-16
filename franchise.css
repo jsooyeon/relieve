@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BinggraeSamanco-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    font-family: "SUIT";
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    min-width: 1320px;
+}
+
+#fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    background-color: #fff;
+}
+
+/* top */
+#top {
+    width: 1320px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+#top ul {
+    float: right;
+}
+
+#top ul li {
+    float: left;
+    padding: 10px 5px;
+}
+
+#top ul li a:hover {
+    text-decoration: underline;
+}
+
+/* header */
+header {
+    position: relative;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.logo_e {
+    display: block;
+    width: 200px;
+    float: left;
+    margin-bottom: 10PX;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+
+}
+
+.nav>li {
+    float: left;
+    width: 224px;
+}
+
+.nav>li>a {
+    display: block;
+    padding: 30px 0;
+    font-family: 'BinggraeSamanco-Bold', cursive;
+    font-weight: 500;
+    font-size: 34px;
+    color: #3b2000;
+}
+
+.nav>li>a:hover {
+    color: #349358;
+}
+
+.nav li:nth-child(5) {
+    background: url(./img/bg_gray.jpg) no-repeat 20px 40%;
+}
+
+/* main banner */
+#banner {
+    margin-top: 143.55px;
+    width: 100%;
+    height: 717px;
+    background: url(./img/framchise_banner.png) no-repeat center top;
+    position: relative;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+#banner span {
+    position: absolute;
+    -webkit-text-stroke: 6px #fff;
+    width: 100%;
+    top: 48%;
+    text-align: center;
+    font-family: 'BinggraeSamanco-Bold', cursive;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+#banner b {
+    position: absolute;
+    width: 100%;
+    top: 48%;
+    text-align: center;
+    font-family: 'BinggraeSamanco-Bold', cursive;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+/* section */
+section {
+    width: 1320px;
+    height: 680px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.box1 {
+    margin-top: -100px;
+}
+
+.left {
+    float: left;
+    width: 551px;
+    height: 551px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.left a {
+    height: 551px;
+    display: block;
+    background: url(./img/franchise_bg1.png) no-repeat;
+    padding: 60px;
+    transition: all 1s;
+}
+
+.left a:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+.right {
+    float: right;
+    width: 769px;
+    height: 769px;
+    position: absolute;
+    right: 0;
+}
+
+.right div {
+    float: left;
+    width: 325px;
+    height: 325px;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.right div:hover h1, .right div:hover h4, .right div:hover h5, .right div:hover h6 {
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+
+.left h1,
+.right h1 {
+    color: #fff;
+}
+
+.left h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.right h1,
+.right h4 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.right div:nth-child(1) {
+    background-color: #72c697;
+}
+
+.right div:nth-child(2) {
+    background-color: #f5947e;
+}
+
+.right div:nth-child(3) {
+    background-color: #ddd;
+}
+
+/*content1 */
+#con1 {
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#con1 h1,
+#con2 h1 {
+    text-align: center;
+    margin: 50px 0 70px 0;
+    font-size: 40px;
+    color: #72c697;
+    padding-bottom: 50px;
+    border-bottom: #72c697 double 5px;
+}
+
+.c_left {
+    width: 540px;
+    float: left;
+    clear: both;
+    
+}
+.c_right {
+    width: 540px;
+    clear: both;
+    float: right;
+    margin-right: 80px;
+}
+
+.c_right img,
+.c_left img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 0px 10px 0px 20px;
+}
+
+.word1 {
+    width: 540px;
+    padding: 20px;
+    background-color: #fae4ae;
+    margin-left: 20px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.word2 {
+    width: 540px;
+    padding: 20px;
+    background-color: #afd39a;
+    margin-left: 20px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 0px;
+}
+
+
+
+
+#con1 h5 {
+    color: #349358;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+/* content2 */
+#con2 {
+    width: 1320px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.box {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#72c697+1,72c697+30,ffffff+30,fff9f9+100 */
+    background: #72c697;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #72c697 1%, #72c697 30%, #ffffff 30%, #fff9f9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #72c697 1%, #72c697 30%, #ffffff 30%, #fff9f9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #72c697 1%, #72c697 30%, #ffffff 30%, #fff9f9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#72c697', endColorstr='#fff9f9', GradientType=0);
+    /* IE6-9 */
+
+    float: left;
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    border: #72c697 solid 1px;
+    margin: 15px 15px 30px 15px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.in{
+    margin-left: 430px;
+}
+.enter{
+    clear: both;
+    margin-left: 300px;
+}
+
+#con2 h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+span {
+    font-weight: 800;
+}
+
+/* 흐르는글자 */
+
+.marquee {
+    height: 100px;
+    padding-top: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: #72c697;
+    margin-bottom: 20px;
+}
+
+.marquee div {
+    width: 200%;
+    height: 100px;
+    background: url(./img/marquee.png) repeat-x;
+    position: absolute;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: -100%;
+    }
+}
+
+
+/* content1 */
+#con3 {
+    width: 1320px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* 슬라이드배너 꾸미기 */
+.slide {
+    width: 873px;
+    height: 705px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slide .swiper-slide a {
+    display: block;
+    width: 873px;
+    height: 705px;
+}
+
+.slide .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.later {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.button {
+    display: inline-block;
+    float: right;
+    border: #349358 solid 2px;
+    border-radius: 10px;
+    margin-top: 300px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    color: #349358;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #349358;
+
+}
+
+/* footer */
+footer {
+    background: url(./img/franchise_footer.png) no-repeat;
+    animation: footer_up 0.5s linear infinite alternate;
+    background-size: cover;
+}
+
+.footer_inner {
+    width: 1320px;
+    margin: 0px auto;
+    padding-top: 100px;
+    height: 303px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+@keyframes footer_up {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 20px;
+    }
+}
+
+.footer_inner p {
+    float: left;
+    padding-top: 20px;
+}
+
+.footer_logo {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+}
+
+.red {
+    background-color: #72c697;
+    height: 50px;
+    width: 100%;
+}
+
+/* sns */
+.sns {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 400px;
+    z-index: 99;
+    color: #72c697;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* top 버튼 */
+.top {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 100;
+}
