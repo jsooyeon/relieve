@@ -271,10 +271,9 @@ input::-webkit-search-results-decoration{
     width: 1300px;
     height: 50px;
     text-align: center;
-    padding: 10px;
     box-sizing: border-box;
     border-collapse: collapse;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .con2_inner th,
@@ -296,6 +295,7 @@ input::-webkit-search-results-decoration{
 .con2_inner tr:hover {
     background-color: #f6d7d2;
 }
+
 
 /* content3 */
 .con3_inner {
@@ -355,6 +355,7 @@ input::-webkit-search-results-decoration{
 .next td:nth-child(2):hover{
     font-weight: bold;
 }
+
 
 /* footer */
 footer {

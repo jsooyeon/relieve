@@ -35,6 +35,8 @@ body {
     min-width: 1320px;
 }
 
+
+
 /* top */
 #top {
     width: 1320px;
@@ -311,6 +313,11 @@ h6 b {
 
 #list li:hover .bg img {
     animation: hover 0.5s linear;
+}
+#list li .new, .best{
+    position: absolute;
+    left: 30px;
+    top: 40px;
 }
 
 @keyframes hover {
