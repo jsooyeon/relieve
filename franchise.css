@@ -165,6 +165,11 @@ section {
     overflow: hidden;
 }
 
+.left video{
+    width: 100%;
+    display: block;
+}
+
 .left a {
     height: 551px;
     display: block;
@@ -239,6 +244,9 @@ h5 {
 
 .right div:nth-child(3) {
     background-color: #ddd;
+}
+.right div:nth-child(4) {
+    background:url(./img/franchise_bg1.png)
 }
 
 /*content1 */
