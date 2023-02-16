@@ -669,26 +669,9 @@ h3 span {
     background: #fff7e3;
 }
 
-.con6_inner {
-    width: 1320px;
-    height: 700px;
-    margin: 0px auto;
-    padding-top: 50px;
-}
-
-h5 {
-    float: left;
-    font-size: 47px;
-    line-height: 60px;
-    font-family: 'BinggraeSamanco-Bold';
-    font-weight: 500;
-    color: #f29780;
-    margin: 200px 0 0 200px;
-}
-
-.con6_inner img {
-    float: right;
-    margin: 50px 200px 0 0;
+#con6 video{
+    width: 100%;
+    display: block;
 }
 
 
